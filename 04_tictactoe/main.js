@@ -15,9 +15,9 @@ var 비동기콜백 = function(event) {
   console.log('몇줄', rowNum); 
   var cellNum = cells[rowNum].indexOf(event.target); // cells 배열에 rowNum째 인덱스에 td를 넣어준다. (몇번째 칸인가)
   console.log('몇칸', cellNum);
-if (cells[rowNum][cellNum].textContent !== '') {   // trN번째줄과 tdN번째칸이 안비었으면
+if (cells[rowNum][cellNum].textContent !== '') {   // rowNum번째줄과 cellNum번째칸이 안비었으면
 }else { //빈칸이면
-  cells[rowNum][cellNum].textContent = turn; // trN번째줄과 tdN번째칸에 X를 채운다.
+  cells[rowNum][cellNum].textContent = turn; // rowNum번째줄과 cellNum번째칸에 X를 채운다.
   
   // 세칸 다 채워졌나 ?
  var full = false;
