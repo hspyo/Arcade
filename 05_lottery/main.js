@@ -58,7 +58,7 @@ var selectedNum = shuffle
     resultView.appendChild(ball);
   }
 
-  // 나중에 클로져 도입하자. 일단은 나열...
+  // 나중에 클로져 도입하자. 일단은 나열..
     setTimeout(function 비동기콜백함수() {
       paintingBall(selectedNum[0], resultView);
     }, 1000); // 1000 밀리당 1초
